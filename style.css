@@ -1,0 +1,153 @@
+.header{
+    display: inline-block;
+}
+.s-images{
+ width: 50%;
+ height: 500px;
+}
+.arrows{
+    color: royalblue;
+}
+.options{
+   padding-left: 1100px;
+}
+.p-image{
+    height: 300px;
+    border: 2px;
+    border-color: aqua;
+}
+#scrolling-img{
+    text-align: center;
+}
+#options{
+    padding-left: 40%;
+}
+#contact{
+    padding: 35px 15px;
+    text-align: center;
+}
+#footer{
+    padding-top: 10px;
+  text-align: center;
+}
+
+body{
+    background-color:black;
+}
+.carousel-item active{
+
+    font-family: 'Kaushan Script', 'cursive';
+    
+}
+.font{
+    font-family: 'Kaushan Script', 'cursive';
+
+}
+.navbar-brand{
+    color: brown;
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Syne Tactile', cursive;}
+
+#fontchange{
+font-weight: bold;
+font-family: 'Akaya Telivigala', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Syne Tactile', cursive;
+background-color: lightpink;
+}
+.colorchange{
+      text-decoration: dotted;
+      background-color: gray;
+      color: #16e916;
+      text-emphasis-color: #032eeb;
+}
+
+.colorblue{
+    text-emphasis-color: #032eeb;
+    text-decoration: #032eeb;
+}
+
+#fontchanges{
+
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Allura', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Syne Tactile', cursive;
+    background-color: lightpink;
+
+}
+#description{
+
+    color: goldenrod;
+    background-color: black;
+font-size: 1.7em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+
+#named{
+
+    color: yellow;
+    background-color: black;
+text-align: center;
+font-size: 2em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#carouselExampleControls{
+    background-image: url("/images/bgimage.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    
+    
+    
+}
+.s-images{
+   border-image: auto;
+   border-color: black;
+   border-radius: initial;
+
+}
+
+.arrows{
+    font-weight: bolder;
+    color: rgb(245, 245, 245);
+}
+.nav-link{
+    color: goldenrod;
+}
+#contactd{
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Allura', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Syne Tactile', cursive;
+}
+
+.container-fluid{
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-body{
+    background-color: burlywood;
+}
+
+
+#footer{
+    color: darkgray;
+}
+
