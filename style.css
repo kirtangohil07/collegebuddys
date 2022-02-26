@@ -1,153 +1,547 @@
-.header{
+.header {
     display: inline-block;
 }
-.s-images{
- width: 50%;
- height: 500px;
+
+.navbar-toggler {
+    background-color: tan;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid darkred;
+    font-size: 13PX;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
-.arrows{
+
+.navbar-toggler:hover {
+    border: 1px solid #fff;
+    background: darkred;
+    transition: 1s;
+}
+
+.s-images {
+    width: 50%;
+    height: 350px;
+    border: 8px solid #16e916;
+}
+
+.arrows {
     color: royalblue;
 }
-.options{
-   padding-left: 1100px;
+
+.options {
+    padding-left: 1100px;
 }
-.p-image{
+
+.p-image {
     height: 300px;
     border: 2px;
     border-color: aqua;
 }
-#scrolling-img{
+
+#scrolling-img {
     text-align: center;
 }
-#options{
+
+#options {
     padding-left: 40%;
 }
-#contact{
+
+#contact {
     padding: 35px 15px;
     text-align: center;
 }
-#footer{
+
+#footer {
     padding-top: 10px;
-  text-align: center;
+    text-align: center;
+    padding-right: 50px;
 }
 
-body{
-    background-color:black;
+body {
+    background-color: rgb(216, 139, 38);
 }
-.carousel-item active{
 
-    font-family: 'Kaushan Script', 'cursive';
-    
+.carousel-item active {
+    font-family: 'Courier New', Courier, monospace;
 }
-.font{
-    font-family: 'Kaushan Script', 'cursive';
 
+.font {
+    font-family: sans-serif;
+    ;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: brown;
     font-family: 'Akaya Telivigala', cursive;
-font-family: 'Allura', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Syne Tactile', cursive;}
-
-#fontchange{
-font-weight: bold;
-font-family: 'Akaya Telivigala', cursive;
-font-family: 'Allura', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Syne Tactile', cursive;
-background-color: lightpink;
-}
-.colorchange{
-      text-decoration: dotted;
-      background-color: gray;
-      color: #16e916;
-      text-emphasis-color: #032eeb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Redressed', cursive;
 }
 
-.colorblue{
+#fontchange {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 139, 38);
+    color: darkred;
+}
+
+.colorchange {
+    text-decoration: dotted;
+    background-color: gray;
+    color: #16e916;
+    text-emphasis-color: #032eeb;
+}
+
+.colorblue {
     text-emphasis-color: #032eeb;
     text-decoration: #032eeb;
 }
 
-#fontchanges{
-
+#fontchanges {
     font-weight: bold;
-    font-family: 'Akaya Telivigala', cursive;
-    font-family: 'Allura', cursive;
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Syne Tactile', cursive;
-    background-color: lightpink;
-
-}
-#description{
-
-    color: goldenrod;
-    background-color: black;
-font-size: 1.7em;
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(216, 139, 38);
+    color: darkred;
 }
 
-#named{
-
-    color: yellow;
-    background-color: black;
-text-align: center;
-font-size: 2em;
-font-family: Georgia, 'Times New Roman', Times, serif;
-
+#description {
+    color: darkred;
+    background-color: rgb(216, 139, 38);
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
+#named {
+    color: darkred;
+    background-color: rgb(216, 139, 38);
+    text-align: center;
+    font-size: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
 
-#carouselExampleControls{
-    background-image: url("/images/bgimage.jpg")  ;
+#carouselExampleControls {
+    background-image: url("/images/bg3.jpg");
     background-repeat: no-repeat;
-    background-size: 1800px;
     
-    
-    
-}
-.s-images{
-   border-image: auto;
-   border-color: black;
-   border-radius: initial;
-
+    height: auto;
+    width: 100%;
 }
 
-.arrows{
+.s-images {
+    border-image: auto;
+    border-color: black;
+    border-radius: initial;
+}
+
+.arrows {
     font-weight: bolder;
     color: rgb(245, 245, 245);
 }
-.nav-link{
+
+.nav-link {
     color: goldenrod;
 }
-#contactd{
-    color: darkgoldenrod;
+
+#contactd {
+    color: darkred;
     font-weight: bold;
-    font-family: 'Akaya Telivigala', cursive;
-    font-family: 'Allura', cursive;
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Syne Tactile', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
 }
 
-.container-fluid{
+.card header {
+    background-color: rgb(216, 139, 38);
+}
 
+.card-body {
+    background-color: rgb(245, 177, 89);
+}
+
+
+/*---blogg---*/
+
+.sub-header {
+    display: inline-block;
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/books.jpg);
+    background-position: center;
+    background-size: 500mm;
+    text-align: center;
+    border: 8px solid black;
+}
+.blog-images{
+    background-image: url(images/blog.jpg);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+
+
+/*  /* Bottom left text */
+
+
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  /* Top left text */
+
+
+/*.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  /* Top right text */
+
+
+/*.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  /* Bottom right text */
+
+
+/*.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  } 
+  /* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    font-size: 1000%;
+    color:aqua;
+}
+.blogimg{
+    height: 500px;
+    width: 500px;
+}
+
+.right_div_title{
+    background-color:tan;
+    text-align: center;
+}
+.right_sub_div{
+    background-color: tan;
+    text-align: center;
+}
+.blog-iteams{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog-link{
+    color: brown;
+}
+ul li .a{
+    list-style-image: url(images/man.png);
+   
+
+}
+body {
+    margin: 0;
+    
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+    box-sizing: border-box;
+    background-color:tan;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+  }
+ 
+  .note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  .add-note {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .add-note:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
 }
 
-.card-body{
-    background-color: burlywood;
+.comment-box h3 {
+    text-align: left;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100px;
+    padding: 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.comment-form button {
+    margin: 10px 0;
 }
 
 
-#footer{
-    color: darkgray;
+/*student*/
+
+body {
+    margin: 0;
+    min-width: 250px;
 }
 
+
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Remove margins and padding from the list */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the list items */
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    /* background:tan; */
+    font-size: 18px;
+    transition: 0.2s;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Set all odd list items to a different color (zebra-stripes) */
+
+
+/*ul li:nth-child(odd) {
+    background:darkred;
+}*/
+
+
+/* Darker background-color on hover */
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+/* When clicked on, add a background color and strike out text */
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
+/* Add a "checked" mark when clicked on */
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+
+/* Style the close button */
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px;
+}
+
+.close:hover {
+    background-color: rgb(53, 82, 247);
+    color: white;
+}
+
+
+/* Style the header */
+
+.header2 {
+    background-color: rgb(216, 139, 38);
+    padding: 30px 40px;
+    color: rgb(141, 25, 25);
+    text-align: center;
+}
+
+
+/* Clear floats after the header */
+
+.header2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the input */
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+
+/* Style the "Add" button */
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: TAN;
+}
+/*feedback*/
+.feed-header{
+    display: inline-block;
+    height: 70vh;
+    width: 100%;
+    background-image:  url(images/feedback2.jpeg);
+    background-position: center;
+    background-size: 500mm;
+    text-align: center;
+    
+}
+.imagef{
+    
+    border: 8px solid black;
+    background-repeat: no-repeat;
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:(-50%,-50%) ;
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding:25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+.wrapper .input_feild{
+    margin-bottom: 10px;
+}
+.wrapper .input_feild input[type="text"],
+.wrapper textarea{
+    width: 100%;
+    border:1px solid #fff
+     
+}
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+.wrapper .btn input[type="submit"]{
+    border:0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #032eeb;
+    color: #16e916;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #888;
+    text-align: center;
+    font-size: 14px;
+    transition:all 0.5 ease ;
+}
+
+#main-form {
+    align-items: center;
+}

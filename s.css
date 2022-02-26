@@ -26,7 +26,11 @@
     height: 600px;
     border: 8px solid #16e916;
 }
-
+.s-image {
+    width: 600px;
+    height: 600px;
+    border: 8px solid #16e916;
+}
 
 .arrows {
     color: royalblue;
@@ -529,7 +533,7 @@ input[type=text], select, textarea {
 
 
 .date-sheet-btech{
-    height: 700px;
-    width: 1300px;
+    height: 600px;
+    width: 1500px;
 }
 
