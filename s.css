@@ -1,0 +1,535 @@
+.header {
+    display: inline-block;
+}
+
+.navbar-toggler {
+    background-color: tan;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid darkred;
+    font-size: 13PX;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-toggler:hover {
+    border: 1px solid #fff;
+    background: darkred;
+    transition: 1s;
+}
+
+.s-images {
+
+    width: 500px;
+    height: 600px;
+    border: 8px solid #16e916;
+}
+
+
+.arrows {
+    color: royalblue;
+}
+
+.options {
+    padding-left: 1100px;
+}
+
+.p-image {
+    height: 300px;
+    border: 2px;
+    border-color: aqua;
+}
+
+#scrolling-img {
+    text-align: center;
+}
+
+#options {
+    padding-left: 40%;
+}
+
+#contact {
+    padding: 35px 15px;
+    text-align: center;
+}
+
+#footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(216, 139, 38);
+}
+
+.carousel-item active {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font {
+    font-family: sans-serif;
+    ;
+}
+
+.navbar-brand {
+    color: brown;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Redressed', cursive;
+}
+
+#fontchange {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 139, 38);
+    color: darkred;
+}
+
+.colorchange {
+    text-decoration: dotted;
+    background-color: gray;
+    color: #16e916;
+    text-emphasis-color: #032eeb;
+}
+
+.colorblue {
+    text-emphasis-color: #032eeb;
+    text-decoration: #032eeb;
+}
+
+#fontchanges {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(216, 139, 38);
+    color: darkred;
+}
+
+#description {
+    color: darkred;
+    background-color: rgb(216, 139, 38);
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+#named {
+    color: darkred;
+    background-color: rgb(216, 139, 38);
+    text-align: center;
+    font-size: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#carouselExampleControls {
+    background-image: url("/images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+.s-images {
+    border-image: auto;
+    border-color: black;
+    border-radius: initial;
+}
+
+.arrows {
+    font-weight: bolder;
+    color: rgb(245, 245, 245);
+}
+
+.nav-link {
+    color: goldenrod;
+}
+
+.nav-link :hover{
+    border-radius: 5px;
+    color: chartreuse;
+}
+
+#contactd {
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.card header {
+    background-color: rgb(216, 139, 38);
+}
+
+.card-body {
+    background-color: rgb(245, 177, 89);
+}
+
+
+/*---blogg---*/
+
+.sub-header {
+    display: inline-block;
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/books.jpg);
+    background-position: center;
+    background-size: 500mm;
+    text-align: center;
+    border: 8px solid black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+
+
+/*  /* Bottom left text */
+
+
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  /* Top left text */
+
+
+/*.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  /* Top right text */
+
+
+/*.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  /* Bottom right text */
+
+
+/*.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  } 
+  /* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    font-size: 1000%;
+    color: tan;
+}
+
+.blog-content {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left {
+    flex-basis: 65%;
+}
+
+.blog-left img {
+    width: 100%
+}
+
+.blog-left h2 {
+    color: darkred;
+    font-weight: bolder;
+    margin: 30px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog-left h4 {
+    color: darkred;
+    width: fit-content;
+}
+
+.blog-left p {
+    color: darkred;
+    padding: 0;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*.blog-right{
+    flex-basis: 25%;
+    
+    
+}
+.blog-right h3{
+    background-color: blueviolet ;
+    color: aqua;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}*/
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3 {
+    text-align: left;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100px;
+    padding: 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.comment-form button {
+    margin: 10px 0;
+}
+
+
+/*student*/
+
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Remove margins and padding from the list */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the list items */
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    /* background:tan; */
+    font-size: 18px;
+    transition: 0.2s;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Set all odd list items to a different color (zebra-stripes) */
+
+
+/*ul li:nth-child(odd) {
+    background:darkred;
+}*/
+
+
+/* Darker background-color on hover */
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+/* When clicked on, add a background color and strike out text */
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
+/* Add a "checked" mark when clicked on */
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+
+/* Style the close button */
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px;
+}
+
+.close:hover {
+    background-color: rgb(53, 82, 247);
+    color: white;
+}
+
+
+/* Style the header */
+
+.header2 {
+    background-color: rgb(216, 139, 38);
+    padding: 30px 40px;
+    color: rgb(141, 25, 25);
+    text-align: center;
+}
+
+
+/* Clear floats after the header */
+
+.header2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the input */
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+
+/* Style the "Add" button */
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: TAN;
+}
+.notice{
+    text-align: center;
+    border: 1px solid bisque ;
+    background-color: bisque;
+}
+
+.student-n1{
+    border: 5px solid tan;
+}
+
+/* .n1 {
+    background: aqu;
+    padding: 20px;
+}
+.n2 {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+.n1 .n2 {
+    background: #cce5ff;
+    color: darblue;
+    margin: 5px;
+} */
+.head{
+    text-align: center;
+    font-size: xx-large;
+    background-color:#ffa51f;;
+    font-family: ui-serif;
+}
+.c-box{
+    text-align: center;
+    
+}
+.list{
+    text-align: center;
+    background-color: bisque;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding:5px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:tan;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 156px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:rgb(140, 210, 149);
+  }
+
+
+
+.date-sheet-btech{
+    height: 700px;
+    width: 1300px;
+}
+
